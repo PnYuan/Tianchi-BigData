@@ -16,7 +16,7 @@ generation of new data sets:
     df_act_34 = {<time, user_id, item_id, behavior_type = 3 or 4>}
 here we write .csv file multi-step to handle the large scale data.
 '''
-'''
+
 batch = 0
 dateparse = lambda dates: pd.datetime.strptime(dates, '%Y-%m-%d %H')
 for df in pd.read_csv(open("../../data/fresh_comp_offline/tianchi_fresh_comp_train_user.csv", 'r'), 
@@ -33,13 +33,13 @@ for df in pd.read_csv(open("../../data/fresh_comp_offline/tianchi_fresh_comp_tra
     except StopIteration:
         print("finish.")
         break 
-'''
+
 
 '''
 generation of new data sets:
     df_time_34 = {<user_id, item_id, time_3, time_4>}
 '''
-'''
+
 data_file = open('../data/act_34.csv', 'r')
 try:
     dateparse = lambda dates: pd.datetime.strptime(dates, '%Y-%m-%d %H')
@@ -72,12 +72,12 @@ df_time_3.to_csv('../data/time_3.csv',
 df_time_34.to_csv('../data/time_34.csv',
                   columns=['user_id','item_id','time3', 'time4'],
                   index=False)
-'''
+
 
 '''
 for decay time calculation and visualization 
 '''
-'''
+
 data_file = open('../data/time_34.csv', 'r')
 try:
     df_time_34 = pd.read_csv(data_file, 
@@ -102,7 +102,7 @@ plt.ylabel('count')
 plt.title('time decay for shopping trolley to buy 1')
 plt.grid(True)
 plt.show()
-'''
+
     
 data_file = open('../data/time_3.csv', 'r')
 try:
