@@ -9,8 +9,9 @@ here is a repository for my code during **Tianchi big data competition**, for mo
 
 代码内容包括：
 
- - [数据加载测试 - python code](./Mobile_Recommendation/time_test_of_data_loading.py)
- - [数据可视化分析 - python code](./Mobile_Recommendation/data_analysis.py)
- - [基于简单的规则预测 - python code](./Mobile_Recommendation/rule_example.py)
+ - [数据加载测试 - python code](./Mobile_Recommendation/data_preanalysis/time_test_of_data_loading.py)
+ - [数据可视化分析 - python code](./Mobile_Recommendation/data_preanalysis/data_analysis.py)
+ - [基于简单规则的预测 - python code](./Mobile_Recommendation/rule_based/rule_example.py)
+ - [特征构建 - python pandas code](./Mobile_Recommendation/feature_construct)
 
 (更新中...2017-6-3)
