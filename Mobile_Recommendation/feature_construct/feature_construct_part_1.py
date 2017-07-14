@@ -78,7 +78,7 @@ import numpy as np
     u_b4_diff_hours (in_6)
 '''
 
-'''
+
 # loading data
 path_df = open(path_df_part_1, 'r')
 try:
@@ -231,7 +231,7 @@ f_U_part_1 = pd.merge(df_part_1_u_b_count,
 # write to csv file
 f_U_part_1 = f_U_part_1.round({'u_b4_rate': 3})
 f_U_part_1.to_csv(path_df_part_1_U, index = False)
-'''
+
 
 ###########################################
 '''Step 1.2 feature data set I of df_part_1
@@ -260,7 +260,7 @@ f_U_part_1.to_csv(path_df_part_1_U, index = False)
     i_b4_diff_hours  (in_6)
 '''
 
-'''
+
 # loading data
 path_df = open(path_df_part_1, 'r')
 try:
@@ -462,7 +462,7 @@ f_I_part_1 = pd.merge(f_I_part_1,
 # write to csv file
 f_I_part_1 = f_I_part_1.round({'i_b4_rate': 3})
 f_I_part_1.to_csv(path_df_part_1_I, index = False)
-'''
+
 
 ###########################################
 '''Step 1.3 feature data set C of df_part_1
@@ -491,7 +491,7 @@ f_I_part_1.to_csv(path_df_part_1_I, index = False)
     c_b4_diff_hours (in_6)
 '''
 
-'''
+
 # loading data
 path_df = open(path_df_part_1, 'r')
 try:
@@ -660,7 +660,7 @@ f_C_part_1 = f_C_part_1.round({'c_b4_rate': 3})
 
 # write to csv file
 f_C_part_1.to_csv(path_df_part_1_C, index = False)
-'''
+
 
 ############################################
 '''Step 1.4 feature data set IC of df_part_1
@@ -669,7 +669,7 @@ f_C_part_1.to_csv(path_df_part_1_C, index = False)
     ic_b4_rank_in_c  (in_6)
 '''
 
-'''
+
 # get df_part_1_i_ub_count
 path_df = open(path_df_part_1_I, 'r')
 try:
@@ -702,7 +702,7 @@ f_IC_part_1 = df_part_1_ic_u_b_count[['item_id',
                                       'ic_b4_rank_in_c']]
 # write to csv file
 f_IC_part_1.to_csv(path_df_part_1_IC, index = False)
-'''
+
 
 ############################################
 '''Step 1.5 feature data set UI of df_part_1
@@ -732,7 +732,7 @@ f_IC_part_1.to_csv(path_df_part_1_IC, index = False)
     ui_b4_last_hours  (in_6)
 '''
 
-'''
+
 path_df = open(path_df_part_1, 'r')
 try:
     df_part_1 = pd.read_csv(path_df, index_col = False, parse_dates = [0])
@@ -910,7 +910,7 @@ f_UI_part_1 = pd.merge(df_part_1_ui_b_count, df_part_1_ui_b_last_time, how='left
 
 # write to csv file
 f_UI_part_1.to_csv(path_df_part_1_UI, index = False)
-'''
+
 
 ############################################
 '''Step 1.6 feature data set UC of df_part_1
@@ -939,7 +939,7 @@ f_UI_part_1.to_csv(path_df_part_1_UI, index = False)
     uc_b4_last_hours  (in_6)
 '''
 
-'''
+
 path_df = open(path_df_part_1, 'r')
 try:
     df_part_1 = pd.read_csv(path_df, index_col = False, parse_dates = [0])
@@ -1107,6 +1107,6 @@ f_UC_part_1 = pd.merge(df_part_1_uc_b_count, df_part_1_uc_b_last_time, how='left
 
 # write to csv file
 f_UC_part_1.to_csv(path_df_part_1_UC, index = False)
-'''
+
 
 print(' - PY131 - ')
