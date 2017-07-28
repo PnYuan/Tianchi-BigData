@@ -1,7 +1,7 @@
 # Tianchi - BigData #
 -----
 
-该仓库托管一些我参加天池大数据竞赛的代码。有关打比赛的内容，欢迎访问我的博客 [Snoopy_Yuan的博客 - 天池赛](http://blog.csdn.net/Snoopy_Yuan/article/category/6924508) 或 [Yuan- Homepages](https://py131.github.io/) 。
+该仓库托管一些我之前参加天池大数据竞赛的代码。有关打比赛的内容，欢迎访问我的博客 [Snoopy_Yuan的博客 - 天池赛](http://blog.csdn.net/Snoopy_Yuan/article/category/6924508) 或 [Yuan- Homepages](https://py131.github.io/) 。
 
 here is a repository for my code during **Tianchi big data competition**, for more, welcome to my blog [Snoopy_Yuan的博客 - 天池赛](http://blog.csdn.net/Snoopy_Yuan/article/category/6924508)  or [Yuan_Homepages](https://py131.github.io/) .
 
