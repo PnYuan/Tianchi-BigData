@@ -18,5 +18,4 @@ here is a repository for my code during **Tianchi big data competition**, for mo
 |基于LR/RF/GBDT模型的预测 (model-based prediction)|[python](./Mobile_Recommendation/model_based/)|pandas, sklearn, matplotlib|
 
 -----
-(更新中...2017-7-22)
 
